@@ -1,0 +1,447 @@
+
+  
+
+.img1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  
+
+} 
+.fm form{
+  margin-top: 40px;
+}
+.contact4{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact3{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact2{
+ 
+  color: rgb(13, 13, 12);
+  
+  padding: 20px;
+}
+
+
+h6{ 
+  margin-right: 225px;
+  
+}
+.container{
+  
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+  
+}
+.container h5{
+  font-weight: bold;
+  font-size: 22px;
+}
+.i{
+  /* border: 3px solid black; */
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+border-radius: 4px;
+}
+.j{
+  /* border: 3px solid black; */
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+border-radius: 4px;
+}
+.k{
+  /* border: 3px solid black; */
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+border-radius: 4px;
+}
+.a{ 
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color:black;
+color: #fff;
+/* padding: 50px; */
+
+}
+.b{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.b p{
+  padding-left: 120px;
+}
+.b h2{
+
+  padding-right: 140px;
+  margin-top: -11px;
+}
+
+.box{
+  background-image: url("https://www.shutterstock.com/image-illustration/contact-us-message-landing-page-260nw-765294988.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+ 
+}
+.box1{
+  margin-left: 40px;
+  width: 55%;
+}
+.box1 h2{
+
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px; 
+  color: #fff;
+  
+}
+.box1  p{
+  margin-top: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.form{
+  display: flex;
+  
+}
+.form1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.form2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.form3{
+  display: flex;
+   flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 10px;
+ margin-left: 55px;
+ margin-bottom: 10px;
+}
+.form4 input{
+ text-align: center;
+ height: 100px;
+ width: 520px;
+ border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  
+  margin-left: 40px;
+}
+.form4 label, .form4 input{
+  margin-left: 60px;
+}
+.form1 input{
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+}
+.form2 input{
+  padding: 5px 20px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+  
+
+}
+.form3 select{
+  
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  padding: 7px 60px 7px 75px;
+ 
+}
+
+.form5{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.contact{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%vh;
+  width: 100%vw;
+}
+.box label{
+  font-size: 18px;
+  /* padding: 6px; */
+  font-weight:300;
+  padding-left: 15px;
+  color: #fff;
+}
+
+@media screen and (max-width:950px) {
+  iframe{
+    width: 100%;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    margin-top: -50px;
+
+    width: 100%;
+    margin-bottom: -20px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .form4 input{
+   text-align: center;
+   height: 100px;
+   width: 400px;
+   border-radius: 10px;
+    border: 4px solid rgb(247, 249, 242);
+    margin-left: -20px;
+   
+  }
+
+.form1 input{
+    padding: 5px 20px 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid rgb(247, 249, 242);
+ 
+  }
+
+}
+
+@media screen and (max-width:550px) {
+  .form1,.form2,.form3{
+    display: flex;
+    flex-direction: column;
+  }
+  .form3 select{
+    width: 380px;
+  }
+  .form4 input{
+    margin-left: 7px;
+    width: 380px;
+  }
+  .form5 button{
+   margin-left: 130px;
+  }
+}
+
+
+
+
+
+
+
+
+/*  
+.img1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  
+
+} 
+.contact4{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact3{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact2{
+ 
+  color: rgb(13, 13, 12);
+  
+  padding: 20px;
+}
+
+
+h6{ 
+  margin-right: 225px;
+  
+}
+.container{
+  
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+  
+}
+.i{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.j{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.k{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.a{ 
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color:black;
+color: #fff;
+/* padding: 50px; */
+
+/* 
+.b{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.b p{
+  padding-left: 120px;
+}
+.b h2{
+
+  padding-right: 140px;
+  margin-top: -11px;
+}
+
+
+.box{
+  background-color: rgb(201, 216, 228);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.box1 h2{
+  margin-left: 110px;
+  padding-top: 70px;
+  
+}
+.box1{
+  margin-left: 60px;
+}
+.form{
+  display: flex;
+  margin-left: 400px;
+  margin-top: -190px;
+  margin-left: 500px;
+}
+.form1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.form2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.form3{
+  display: flex;
+   flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 10px;
+}
+.form4 input{
+ text-align: center;
+ height: 100px;
+ width: 580px;
+ border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-top: 20px;
+  
+ 
+}
+.form1 input{
+  padding: 5px 20px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+  margin-right: 40px;
+}
+.form2 input{
+  padding: 5px 20px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+  margin-right: 40px;
+
+}
+.form3 select{
+  
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  padding: 7px 65px 7px 65px;
+  margin-left: 20px;
+  margin-right: 40px;
+
+}
+
+.form5  input{
+  
+  color: rgb(0, 0, 0);
+  background-color:rgb(21, 144, 81);
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(15, 15, 14);
+}
+.form5{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact{
+  
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%vh;
+  width: 100%vw;
+}   */

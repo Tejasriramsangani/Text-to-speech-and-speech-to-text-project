@@ -1,0 +1,120 @@
+
+.logn{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border: 2px solid black;
+    margin: 70px 510px 20px 510px;
+    border-radius: 15px;
+    /* background-image: url(D:\vijay\reactjs\vijay\src\img13.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 50px; */
+    padding-bottom: 10px;
+    padding-top: 6px;
+    /* width: fit-content; */
+    
+
+}
+.logn h2{
+  text-align: center;
+}
+.pv{
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/41/71/metal-background-surface-for-web-design-modern-vector-21794171.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.logn:hover{
+    box-shadow: 3px,3px,2px,2px rgb(199, 16, 16);
+
+}
+
+.logn2{
+    font-size: 20px;
+    width: 350px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    max-width: 560px;
+    margin: auto; 
+}
+.go{
+  color: red;
+  padding:2px 15px 0 35px;
+}
+.fb{
+  color: blue;
+  padding:2px 15px 0 35px;
+}
+.en{
+  color: chocolate;
+  padding:2px 15px 0 35px;
+}
+.logn button:hover{
+    background-color: rgb(88, 88, 247);
+     
+}
+.logn  button{
+    margin-bottom: 20px;
+    
+}
+.logn a{
+  text-decoration: none;
+}
+.logn i{
+    margin-right: 8px;
+
+}
+.logn input{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 130px;
+ }
+ .btn:hover{
+  font-weight: bold;
+ }
+ .vs{
+  color: black;
+  padding-top: 30px;
+  
+  
+ }
+ .tag{
+  color: darkblue;
+ }
+ 
+
+
+
+@media screen and (max-width:200px){
+  .pv{
+    width:40rem;
+  
+  }
+  
+}
+
+
+
+
+
+
+
+  
+

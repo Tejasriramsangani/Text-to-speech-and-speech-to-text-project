@@ -1,0 +1,165 @@
+
+.about img {
+  height: 350px;
+  width: 1240px;
+  border-radius: 5px;
+}
+
+.about1 {
+  position: absolute;
+  bottom: 60px;
+  left: 16px;
+  padding-left: 500px;
+  color: rgb(8, 95, 132);
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  color: rgb(18, 14, 14);
+}
+
+.about2 h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.about2 img{
+  height: 330px;
+  width: 500px;
+  
+  margin: auto;
+  padding:30px;
+  padding-left: 10px;
+  
+}
+.imgedit{
+  padding: 0px 300px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.about2 button {
+  text-align: center;
+  background-color: blue;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-left: 43%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.about3 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.about4 {
+  text-align: justify;
+  text-indent: 150px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  /* font-family: 'Ysabeau Infant', sans-serif; */
+  /* font-family: 'Carter One'; */
+  /* font-family: 'Pacifico', cursive; */
+  /* font-family: 'Forum', cursive; */
+  font-family: 'Courgette', cursive;
+
+}
+.about5 {
+  /* margin-left: 200px;
+  margin-right: 150px; */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 75px;
+}
+.about5 h5 {
+  margin-left: 70px;
+}
+
+.about6 {
+  /* margin-left: 200px;
+  margin-right: 150px;
+  text-align: justify; */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 75px;
+
+}
+.about6 li{
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+
+
+}
+.about5 li{
+
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+}
+.about5 p ,.about5 h3,.about6 p,.about6 h3{
+  margin-left: 60px;
+  font-style:oblique;
+}
+
+.about8 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 0 60px 0 50px;
+  margin-bottom: 20px;
+
+}
+.about8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about h1 {
+margin-top: 40px;
+font-size: 60px;
+font-family: 'Carter One'; 
+
+}
+.about3 p {
+  padding-left: 30px;
+ 
+}
+.arro{
+  
+  size: 300px;
+  font-size: large;
+}
+
+@media screen and (max-width: 900px) {
+  .about8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about4{
+    margin-left: 50px;
+    margin-right: -70px;
+  }
+ 
+}
+
+@media screen and (max-width:650px) {
+  .imgedit{
+    margin-left: 30px;
+  }
+  .about4{
+    margin-left: 50px;
+    margin-right: -70px;
+  }
+}

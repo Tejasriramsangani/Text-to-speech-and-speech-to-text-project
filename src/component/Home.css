@@ -1,0 +1,409 @@
+.homemain {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display-4 {
+  font-weight: bold;
+}
+.firstdivhome {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.firstdivhome-1 {
+  margin-top: 30px;
+  font-weight: bold;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstdivhome-2 {
+  width: 70%;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.seconddivhome {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-bottom: 10px;
+}
+.seconddivhome-1 {
+  padding: 5px 25px;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+}
+.seconddivhome-2 {
+  padding: 5px 25px;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(249, 249, 249);
+  text-align: center;
+}
+.mic,
+.vol {
+  width: 120px;
+  height: 120px;
+}
+.ctn {
+  width: 70%;
+  height: 7vh;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-image: linear-gradient();
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.ctn:hover {
+  background-color: #2a2a72;
+  background-image: linear-gradient(-315deg, #2a2a72 0%, #009ffd 74%);
+}
+.homeBg {
+  background-image: url("https://cdn.wallpapersafari.com/20/89/ts2gCU.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home,
+.home1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.home img,
+.home1 img {
+  height: 350px;
+  width: 45%;
+}
+.content1,
+.content2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 5px;
+}
+.home {
+  margin-bottom: 10px;
+}
+.home1 {
+  margin-top: 10px;
+}
+.thirddivhome {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  
+  
+/* background-color: #91d370;
+background-image: linear-gradient(319deg, #91d370 0%, #bca0ff 37%, #f2cd54 100%); */
+/* background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%); */
+
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.d3-1 {
+  color: #141515;
+}
+.fourthdivhome {
+  /* background-image: linear-gradient(319deg, #91d370 0%, #bca0ff 37%, #f2cd54 100%); */
+  background-color: #50d8d7;
+background-image: linear-gradient(316deg, #7ef0f0 0%, #bf3ac1 74%);
+
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+
+}
+.fifthdivhome {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.fifthdivhome-1 {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fd-1 img {
+  height: 200px;
+  width: 200px;
+}
+.fd-1 {
+  padding: 10px;
+}
+.fd-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.Btn {
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #734ae8;
+  background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+}
+.Btn:hover {
+  background-color: #734ae8;
+  background-image: linear-gradient(-315deg, #734ae8 0%, #89d4cf 74%);
+}
+.sixthdivhome {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sixthdiv-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sd-1 {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  background-color: #bbff99;
+background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
+
+}
+.seconddivhome-1:hover,
+.seconddivhome-2:hover {
+  transform: scale(1.01, 1.02);
+}
+@media (max-width:850px){
+  .firstdivhome-1 {
+    width: 98%;  
+  }
+  .firstdivhome-2 {
+    width: 86%;
+  }
+  .seconddivhome {
+    width: 99%;
+    justify-content: space-between;
+  flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .seconddivhome-1 {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .seconddivhome-2 {
+    width: 80%;
+  }
+  .ctn {
+    height: auto;
+    padding: 9px;
+  }
+  .homeBg {
+    background-image: url("https://cdn.wallpapersafari.com/20/89/ts2gCU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home,
+  .home1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home1{
+    flex-direction: column-reverse;
+  }
+  .home img,
+  .home1 img {
+    height: auto;
+    width: auto;
+  }
+  .content1,
+  .content2 {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+  }
+  .home {
+    margin-bottom: 10px;
+  }
+  .home1 {
+    margin-top: 10px;
+  }
+  .thirddivhome,  .fourthdivhome {
+    width: 90%;
+    padding: 4px;
+  }
+  .fifthdivhome-1 {
+    flex-direction: column;
+  }
+  .fd-1 img {
+    height: 200px;
+    width: 200px;
+  }
+  .fd-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sixthdivhome {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sixthdiv-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sd-1 {
+    width: 92%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:350px){
+  .fd-2{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.homeBg h1{
+    text-align: center;
+    margin: 25px 0px 60px 0px;
+    color: rgb(20, 21, 16);
+    
+}
+  h4{
+    color: rgb(23, 22, 22);
+    
+}
+
+.home img{
+    height: 220px;
+    border-radius: 0 60px 0 60px;
+}
+.home1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home1 img{
+
+    border-radius: 0 60px 0 60px;
+
+}
+
+.homeBg{
+
+    background-image: url('https://cdn.wallpapersafari.com/20/89/ts2gCU.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -26.5px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    
+}
+
+  .b p{
+    padding-left: 120px;
+  }
+  .b h2{
+
+    padding-right: 140px;
+    margin-top: -11px;
+  }
+ 
+  
+
+.welcom h2{
+ text-align: center;
+ font-size: 50px;
+ margin-top: 20px;
+ 
+
+ 
+}
+.wel{
+  display: flex;
+  justify-content: space-evenly;
+}
+.wel p{
+  margin-top: 35px;
+  text-align: justify;
+} */
